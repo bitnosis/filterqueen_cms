@@ -42,7 +42,7 @@ return array(
 	|
 	*/
 
-	'default' => 'sqlite',
+	'default' => 'mysql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -64,17 +64,17 @@ return array(
 		'sqlite' => array(
 			'driver'   => 'sqlite',
 			'database' => 'application',
-			'prefix'   => 'pongo_',
+			'prefix'   => '',
 		),
 
 		'mysql' => array(
 			'driver'   => 'mysql',
 			'host'     => '127.0.0.1',
-			'database' => 'database',
+			'database' => 'aas',
 			'username' => 'root',
-			'password' => '',
+			'password' => 'prscustom24',
 			'charset'  => 'utf8',
-			'prefix'   => 'pongo_',
+			'prefix'   => '',
 		),
 
 		'pgsql' => array(
@@ -84,7 +84,7 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset'  => 'utf8',
-			'prefix'   => 'pongo_',
+			'prefix'   => '',
 			'schema'   => 'public',
 		),
 
@@ -94,7 +94,7 @@ return array(
 			'database' => 'database',
 			'username' => 'root',
 			'password' => '',
-			'prefix'   => 'pongo_',
+			'prefix'   => '',
 		),
 
 	),
